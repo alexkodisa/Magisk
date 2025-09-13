@@ -38,7 +38,7 @@ $INTERNALDIR/rootdir
 
 ### Paths in `/data`
 
-Some binaries and files should be stored on non-volatile storages in `/data`. In order to prevent detection, everything has to be stored somewhere safe and undetectable in `/data`. The folder `/data/adb` was chosen because of the following advantages:
+Some binaries and files should be stored on non-volatile storages in `/data`. In order to prevent detection, everything has to be stored somewhere safe and undetectable in `/data`. The folder `/data/adb` was chosen because of the following advantages: 
 
 - It is an existing folder on modern Android, so it cannot be used as an indication of the existence of Magisk.
 - The permission of the folder is by default `700`, owner as `root`, so non-root processes are unable to enter, read, write the folder in any possible way.
