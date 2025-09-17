@@ -1,4 +1,4 @@
-# Internal Details
+# Internal Details  
 
 ## File Structure
 
